@@ -2,7 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+/*global chrome*/
 function App() {
+  // var myAudio = new Audio(chrome.runtime.getURL("Sounds/Space.mp3"));
+  // myAudio.play();
   return (
     <div className="App">
       <header className="App-header">
